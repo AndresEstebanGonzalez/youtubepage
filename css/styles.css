@@ -103,6 +103,8 @@
   border: none;
   font-size: 16px;
   overflow-y: hidden;
+  -webkit-appearance: none;
+  outline: none;
 }
 
 .primary-navbar .container-center .container-searchbar .search-icon {

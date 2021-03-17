@@ -66,6 +66,8 @@
         border: none;
         font-size: 16px;
         overflow-y: hidden;
+        -webkit-appearance: none;
+        outline: none;
       }
       .search-icon {
         width: 50px;
