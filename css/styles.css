@@ -1,1 +1,166 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.primary-navbar {
+  width: 100vw;
+  height: 56px;
+  padding: 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #202020;
+}
+
+.primary-navbar .container-left {
+  width: 185px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.primary-navbar .container-left .hamburger-menu-icon {
+  width: 18px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-right: 16px;
+  padding: 8px 8px 8px 10px;
+}
+
+.primary-navbar .container-left .youtube-btn-link {
+  width: 80px;
+  margin-left: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.primary-navbar .container-left .youtube-btn-link img {
+  width: 80px;
+  height: 18px;
+}
+
+.primary-navbar .container-left .youtube-link-ar {
+  height: 24px;
+  padding-left: 2px;
+  font-size: 10px;
+  color: #fff;
+  vertical-align: top;
+  text-transform: uppercase;
+}
+
+.primary-navbar .container-left p {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.primary-navbar .container-center {
+  width: 728px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.primary-navbar .container-center .container-searchbar {
+  width: 638px;
+  height: 30px;
+  margin-left: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #121212;
+  border-width: 2px;
+  border: 0.2px solid #313131;
+  border-radius: 2px;
+  overflow-y: hidden;
+}
+
+.primary-navbar .container-center .container-searchbar .searchbar {
+  width: 100%;
+  height: 30px;
+  margin-left: 2px;
+  padding: 1px 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  background-color: #121212;
+  border: none;
+  font-size: 16px;
+  overflow-y: hidden;
+}
+
+.primary-navbar .container-center .container-searchbar .search-icon {
+  width: 50px;
+  height: 14px;
+  padding: 1px 0px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding: 8px 8px 8px 10px;
+  background-color: #313131;
+}
+
+.primary-navbar .container-center .microphone {
+  width: 19px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding: 8px 8px 8px 10px;
+}
+
+.primary-navbar .container-right {
+  width: 225px;
+  height: 40px;
+  padding-left: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.primary-navbar .container-right .icon {
+  width: 17px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-right: 16px;
+  padding: 8px;
+}
+
+.primary-navbar .container-right .bell {
+  width: 20px;
+}
+
+.primary-navbar .container-right .avatar-picture {
+  width: 31px;
+  height: 31px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border-radius: 19px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Roboto";
+}
+/*# sourceMappingURL=styles.css.map */
