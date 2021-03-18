@@ -1,0 +1,71 @@
+@import "./mixin";
+.secondarybar-container {
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+}
+.secondarybar {
+  @include flex(row, flex-start, center);
+
+  width: 94.8%;
+  height: 59px;
+  float: right;
+  position: relative;
+  z-index: -1;
+  background-color: $grey-bg;
+  border-top: 1px solid $grey-15;
+  border-bottom: 1px solid $grey-15;
+  .btn {
+    margin: 12px 12px 12px 0;
+    padding: 0 12px;
+    color: $white;
+    background-color: lighten($grey, 6);
+    border: 1px solid $grey-15;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .first {
+    margin: 12px 12px 12px 24px;
+    color: $black;
+    background-color: $white;
+  }
+  p {
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+  }
+}
+.secondarybar-arrow-container {
+  @include flex(row, center, center);
+  width: 106px;
+  height: 59px;
+  z-index: 1;
+  position: absolute;
+  background-color: $grey;
+  background: linear-gradient(to right, transparent, $grey 35%);
+  border-top: 1px solid $grey-15;
+  border-bottom: 1px solid $grey-15;
+}
+.gradient-container {
+  width: 59px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+  position: absolute;
+  background-color: $grey;
+  background: linear-gradient(to right, transparent, $grey 200%);
+}
+.arrow-btn {
+  @include flex(row, center, center);
+  width: 32px;
+  height: 32px;
+}
+.arrow-icon {
+  width: 11px;
+  height: 11x;
+  padding: 2px;
+  cursor: pointer;
+}
