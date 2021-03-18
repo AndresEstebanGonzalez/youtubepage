@@ -200,7 +200,7 @@
 .sidebar {
   width: 72px;
   height: 91vh;
-  padding: 5px 0 0 0;
+  padding-top: 5px;
   background-color: #212121;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,8 +217,8 @@
 
 .sidebar .icon {
   width: 17px;
-  margin: 0 0 6px;
-  padding: 0 0 2px 0;
+  margin-bottom: 6px;
+  padding-bottom: 2px;
 }
 
 .sidebar .home-icon {
