@@ -1,0 +1,44 @@
+@import "./mixin";
+
+.sidebar {
+  width: 72px;
+  height: 91vh;
+  padding-top: 5px;
+  background-color: $grey;
+  display: flex;
+  flex-direction: column;
+  a {
+    text-decoration: none;
+  }
+  .home-btn {
+    @extend %btn;
+  }
+  .trending-btn {
+    @extend %btn;
+  }
+  .subscription-btn {
+    @extend %btn;
+  }
+  .library-btn {
+    @extend %btn;
+  }
+  .icon {
+    width: 17px;
+    margin-bottom: 6px;
+    padding-bottom: 2px;
+  }
+  .home-icon {
+    width: 20.5px;
+  }
+  .library-icon {
+    width: 21px;
+    margin-bottom: 6px;
+  }
+  .btn {
+    &:hover {
+      background: darken($grey-white, 33);
+      border-color: darken($grey-white, 30);
+      cursor: pointer;
+    }
+  }
+}

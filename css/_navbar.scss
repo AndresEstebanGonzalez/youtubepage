@@ -16,6 +16,9 @@
       box-sizing: content-box;
       margin-right: 16px;
       padding: 8px 8px 8px 10px;
+      &:hover {
+        cursor: pointer;
+      }
     }
     .youtube-btn-link {
       width: 80px;
@@ -76,12 +79,18 @@
         box-sizing: content-box;
         padding: 8px 8px 8px 10px;
         background-color: $grey-light-middle;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
     .microphone {
       width: 19px;
       box-sizing: content-box;
       padding: 8px 8px 8px 10px;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
   .container-right {
@@ -94,6 +103,9 @@
       box-sizing: content-box;
       margin-right: 16px;
       padding: 8px;
+      &:hover {
+        cursor: pointer;
+      }
     }
     .bell {
       width: 20px;
