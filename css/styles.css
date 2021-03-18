@@ -209,6 +209,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: fixed;
 }
 
 .sidebar a {
@@ -384,6 +385,85 @@
   height: 11x;
   padding: 2px;
   cursor: pointer;
+}
+
+.main-container {
+  width: 100vw;
+  height: 90vh;
+  margin-top: 58px;
+  float: right;
+  overflow: hidden;
+  background-color: #181818;
+}
+
+.main-container .video-menu-container {
+  width: 93%;
+  height: 100vh;
+  padding-top: 24px;
+  padding-left: 6px;
+  float: right;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-container .video-container {
+  width: 295px;
+  height: 280px;
+  cursor: pointer;
+}
+
+.main-container .bottom-container {
+  width: 295px;
+  height: 94px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+}
+
+.main-container img {
+  width: 295px;
+  height: 166px;
+}
+
+.main-container .profile-icon-container {
+  width: 40px;
+  height: 100%;
+}
+
+.main-container .video-name {
+  width: 223px;
+  height: 40px;
+  word-wrap: break-word;
+  overflow: hidden;
+  color: #fff;
+}
+
+.main-container .profile-icon {
+  width: 33px;
+  height: 33px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border-radius: 19px;
+}
+
+.main-container .name-user {
+  padding-right: 24px;
+}
+
+.main-container .user-views {
+  font-size: 14px;
+  color: gray;
 }
 
 .sidebar .home-btn, .sidebar .trending-btn, .sidebar .subscription-btn, .sidebar .library-btn {

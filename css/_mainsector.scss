@@ -1,0 +1,60 @@
+.main-container {
+  width: 100vw;
+  height: 90vh;
+  margin-top: 58px;
+  float: right;
+  overflow: hidden;
+  background-color: darken($grey-15, 20);
+  .video-menu-container {
+    width: 93%;
+    height: 100vh;
+    padding-top: 24px;
+    padding-left: 6px;
+    float: right;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .video-container {
+    width: 295px;
+    height: 280px;
+    cursor: pointer;
+  }
+  .bottom-container {
+    width: 295px;
+    height: 94px;
+    display: flex;
+    padding-top: 5px;
+  }
+  img {
+    width: 295px;
+    height: 166px;
+  }
+  .profile-icon-container {
+    width: 40px;
+    height: 100%;
+  }
+  .video-name {
+    width: 223px;
+    height: 40px;
+    word-wrap: break-word;
+    overflow: hidden;
+    color: $white;
+  }
+  .profile-icon {
+    width: 33px;
+    height: 33px;
+    padding: 0;
+    display: flex;
+    align-self: center;
+    border-radius: 19px;
+  }
+  .name-user {
+    padding-right: 24px;
+  }
+  .user-views {
+    font-size: 14px;
+    color: darken($white, 50);
+  }
+}
