@@ -6,7 +6,7 @@
   justify-content: flex-end;
 }
 .secondarybar {
-  @include flexcenter-row;
+  @include flex(row, flex-start, center);
 
   width: 94.8%;
   height: 59px;
@@ -14,14 +14,14 @@
   position: relative;
   z-index: -1;
   background-color: $grey-bg;
-  border-top: 1px solid lighten($grey, 15);
-  border-bottom: 1px solid lighten($grey, 15);
+  border-top: 1px solid $grey-15;
+  border-bottom: 1px solid $grey-15;
   .btn {
     margin: 12px 12px 12px 0;
     padding: 0 12px;
     color: $white;
     background-color: lighten($grey, 6);
-    border: 1px solid lighten($grey, 15);
+    border: 1px solid $grey-15;
     border-radius: 50px;
     cursor: pointer;
   }
@@ -37,17 +37,15 @@
   }
 }
 .secondarybar-arrow-container {
+  @include flex(row, center, center);
   width: 106px;
   height: 59px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 1;
   position: absolute;
   background-color: $grey;
   background: linear-gradient(to right, transparent, $grey 35%);
-  border-top: 1px solid lighten($grey, 15);
-  border-bottom: 1px solid lighten($grey, 15);
+  border-top: 1px solid $grey-15;
+  border-bottom: 1px solid $grey-15;
 }
 .gradient-container {
   width: 59px;
@@ -61,12 +59,9 @@
   background: linear-gradient(to right, transparent, $grey 200%);
 }
 .arrow-btn {
-  @include flexcenter;
+  @include flex(row, center, center);
   width: 32px;
   height: 32px;
-
-  /*background-color: lighten($grey, 15);
-  border-radius: 50px;*/
 }
 .arrow-icon {
   width: 11px;

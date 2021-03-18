@@ -1,21 +1,11 @@
-@mixin flexcenter-column {
+@mixin flex($direction, $justify, $align) {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-@mixin flexcenter-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-@mixin flexcenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
 }
 %btn {
-  @include flexcenter-column();
+  @include flex(column, center, center);
   width: 100%;
   height: 74px;
   padding-top: 16px;
