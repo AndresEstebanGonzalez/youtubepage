@@ -4,6 +4,16 @@
   align-items: center;
   justify-content: center;
 }
+@mixin flexcenter-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@mixin flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 %btn {
   @include flexcenter-column();
   width: 100%;
